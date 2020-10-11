@@ -1,0 +1,23 @@
+{
+    "name": "jr/mvc",
+    "description": "Easy MVC templates",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AlekandrVyrodov",
+            "email": "aleksandr.vyrodov@hotmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+    },    
+    "autoload": {
+        "psr-4": {
+            "Controller\\": "server/controllers",
+            "Model\\": "server/models",
+            "Rout\\": "server/rout",
+            "Components\\": "Component"
+        }
+    }
+}
